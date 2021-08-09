@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 /** 宏: 使用单例 */
-#define kCountDownManager [OYCountDownManager manager]
+#define kCountDownManager [OYCountDownManager shared]
 /** 倒计时的通知名 */
 extern NSString *const OYCountDownNotification;
 
