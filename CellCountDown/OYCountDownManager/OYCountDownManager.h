@@ -15,7 +15,7 @@ extern NSString *const OYCountDownNotification;
 @interface OYCountDownManager : NSObject
 
 /** 使用单例 */
-+ (instancetype)manager;
++ (instancetype)shared;
 
 /** 开始倒计时 */
 - (void)start;

@@ -34,13 +34,13 @@
 
 @implementation OYCountDownManager
 
-+ (instancetype)manager {
-    static OYCountDownManager *manager = nil;
++ (instancetype)shared {
+    static OYCountDownManager *shared = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        manager = [[OYCountDownManager alloc]init];
+        shared = [[OYCountDownManager alloc]init];
     });
-    return manager;
+    return shared;
 }
 
 - (instancetype)init {

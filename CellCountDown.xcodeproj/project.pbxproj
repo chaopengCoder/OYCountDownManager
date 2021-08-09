@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					87492F471D85A5F90032D7FF = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = HR4TS9X44Z;
 					};
 				};
 			};
@@ -201,6 +202,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -403,7 +405,7 @@
 			baseConfigurationReference = FE31B69A7C8446D6A10E6984 /* Pods-CellCountDown.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HR4TS9X44Z;
 				INFOPLIST_FILE = CellCountDown/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -417,7 +419,7 @@
 			baseConfigurationReference = 08B892AE5C5905A2FAC6CCCE /* Pods-CellCountDown.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = HR4TS9X44Z;
 				INFOPLIST_FILE = CellCountDown/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
